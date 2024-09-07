@@ -1,5 +1,12 @@
 
 ## For Design And Services Page
+design reference websites :
+
+https://www.behance.net/search/projects/?field=102&sort=appreciations&time=week
+https://bestwebsite.gallery/
+https://cssnectar.com/
+https://abduzeedo.com/
+https://webflow.com/blog/web-design-inspiration
 
 Note : Maintain a design consistency and try to modifiy the web design from refernces below .
 
