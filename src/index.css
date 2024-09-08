@@ -8,17 +8,18 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("/1159480872_57758d7d-ef5d-4879-aad6-64122d556710.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
-  
+ 
 }
 

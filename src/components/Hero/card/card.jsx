@@ -2,8 +2,9 @@
 
 const StyledCard = () => {
   return (
-    <div>StyledCard
-    </div>
+<div>
+  
+</div>
   )
 }
 

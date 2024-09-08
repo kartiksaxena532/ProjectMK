@@ -7,10 +7,10 @@ import Hero from './components/Hero/hero'
 function App() {
 
   return (
-   <main className="bg-scroll flex flex-col place-items-center ">
+   <main className="bg-scroll flex flex-col ">
       <Navbar/>
       <Hero/>
-      <Footer/>
+      <Footer className="flex justify-start"/>
    </main>
   )
 }

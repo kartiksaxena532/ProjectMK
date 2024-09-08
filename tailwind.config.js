@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-image': "url('/19538126_6151329.svg')",
+        'bg-image': "url('/1159480872_57758d7d-ef5d-4879-aad6-64122d556710.jpg')",
       }
     },
   },
