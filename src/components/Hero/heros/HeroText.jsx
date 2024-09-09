@@ -2,7 +2,7 @@ import WhiteCard from '../card/WhiteCard'
 import { MdArrowOutward } from "react-icons/md";
 const HeroText = () => {
   return (
-    <div className="flex flex-col ring-2 h-[75vh] w-[35vw] justify-between">
+    <div className="flex flex-col ring-2 h-[75vh] w-[38vw] justify-between">
       <div className="flex flex-col items-start gap-4">
       <p className="font-regular text-sm mt-1">This Is The Future</p>
       <hr className="w-[15vw] rounded-full ring-2 ring-fuchsia-100"></hr>
