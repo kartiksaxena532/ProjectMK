@@ -1,5 +1,5 @@
 import Robo from '../../../assets/images/3d model_transparent_Craiyon.png'
-import WhiteCard from '../card/WhiteCard'
+import TransCard from '../card/TransCard'
 
 const HeroRobo = () => {
   return (
@@ -8,7 +8,7 @@ const HeroRobo = () => {
     <img src={Robo} alt="Logo" className="w-full h-full transform -scale-x-100 -z-999" />
 </div>
 <div className=' absolute flex bottom-20 right-60'>
-<WhiteCard/>
+<TransCard/>
 </div>
 </div>
   )
