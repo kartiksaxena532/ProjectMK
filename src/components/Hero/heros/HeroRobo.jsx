@@ -4,10 +4,10 @@ import TransCard from '../card/TransCard'
 const HeroRobo = () => {
   return (
     <div className='flex'>
-    <div className="mt-[4rem] h-[91vh] w-[38vw] align-right ">
-    <img src={Robo} alt="Logo" className="w-full h-full transform -scale-x-100 -z-999" />
+    <div className="mt-[8rem]  h-[87vh] w-[32vw] align-right  ">
+    <img src={Robo} alt="Logo" className=" absolute -ml-36 transform -scale-x-100 -z-999 scale-125 w-[40vw]  h-[40vw]" />
 </div>
-<div className=' absolute flex bottom-20 right-60'>
+<div className='absolute flex bottom-20 right-60'>
 <TransCard/>
 </div>
 </div>
