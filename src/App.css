@@ -3,7 +3,7 @@
 @tailwind utilities;
 #root {
   max-width: 1800px;
-  padding: 2rem;
+  padding: 1rem;
   background: url("/1159480872_57758d7d-ef5d-4879-aad6-64122d556710.jpg");
   background-size: cover;
   background-repeat: no-repeat;
