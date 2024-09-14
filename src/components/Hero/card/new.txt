@@ -1,0 +1,1 @@
+<div className="rounded-xl w-48 h-28 mt-12 mx-auto bg-zinc-800 opacity-30 items-center flex justify-center "></div>
