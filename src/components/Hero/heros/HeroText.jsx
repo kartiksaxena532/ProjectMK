@@ -9,7 +9,7 @@ const HeroText = () => {
     </div>
      <p className='text-7xl font-thin tracking-normal'> Discover how <br/><div className='flex flex-row -mb-20 gap-2 '><div className='ring-white ring-1 px-2 rounded-full font-normal'>technology</div><p className="bg-green-500 text-white rounded-full w-20 h-20 flex items-center justify-center hover:bg-white animate-spin"><MdArrowOutward className="fill-black w-12 h-12 "/></p></div> <br/>have come so far <br/>By Klectra.
       </p>
-      <div className=' flex justify-start'>
+      <div className='flex justify-start'>
 <WhiteCard/>
 </div>
     </div>

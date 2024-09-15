@@ -5,7 +5,7 @@ import HeroRobo from "./heros/HeroRobo"
 const Hero = () => {
   return (
     <>
-    <div className="flex flex-row h-[80vh] w-full items-center justify-center overflow-hidden">
+    <div className="flex flex-col md:flex-row h-[80vh] w-full items-center justify-center overflow-hidden">
      <div className="mr-10"><HeroLongCard/></div>
     <div><HeroText /></div>
     <div><HeroRobo/></div>
