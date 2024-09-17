@@ -2,6 +2,9 @@ import base1 from "../../../assets/E1smallOuline.svg"
 import base0 from "../../../assets/EsmallOutlineHero.svg"
 import base2 from "../../../assets/E2SmallOuline.svg"
 
+import { motion } from "framer-motion"
+
+
 const HeroLongCard = () => {
   return (
     <div className=" h-[75vh] w-[17vw] ">
