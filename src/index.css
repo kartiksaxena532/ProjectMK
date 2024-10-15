@@ -23,3 +23,28 @@ body {
  
 }
 
+
+.swiper {
+  width: 80%;
+  height: 60%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:10%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  border-radius:10%;
+  height: 100%;
+  object-fit: cover;
+}
+
