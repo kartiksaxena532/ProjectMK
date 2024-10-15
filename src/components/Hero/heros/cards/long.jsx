@@ -30,9 +30,6 @@ const Long = () => {
     <Swiper
     gap={20}
     centeredSlides={true}
-        pagination={{
-          dynamicBullets: true,
-        }}
         autoplay={{
           delay: 1000,
           disableOnInteraction: false,
