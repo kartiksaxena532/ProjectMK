@@ -1,4 +1,4 @@
-
+import { Swiper, SwiperSlide } from 'swiper/react';
 import base2 from "../../../../assets/images/blackcard.svg"
 import img1 from "../../../../assets/swiper/1.jpg"
 import img2 from "../../../../assets/swiper/2.jpg"
@@ -8,9 +8,6 @@ import img5 from "../../../../assets/swiper/5.jpg"
 import img6 from "../../../../assets/swiper/6.jpg"
 import img7 from "../../../../assets/swiper/7.jpg"
 import bar from "../../../../assets/swiper/bar.png"
-
-
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';

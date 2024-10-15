@@ -1,10 +1,10 @@
+import { Swiper, SwiperSlide } from 'swiper/react';
 import card from "../../../assets/SmallOulineHero.svg"
 import image from "../../../assets/transcard.jpg"
 import img1 from "../../../assets/swiper/1.jpg"
 import img2 from "../../../assets/swiper/2.jpg"
 import img5 from "../../../assets/swiper/5.jpg"
 import img4 from "../../../assets/swiper/4.jpg"
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
