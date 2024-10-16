@@ -33,7 +33,7 @@ const Long = () => {
         }}
         navigation={true}
         modules={[Autoplay,Pagination ,Navigation ]}
-        className="mySwiper absolute top-14 left-6"
+        className="mySwiper absolute top-14 left-6 ring-1 rounded-3xl ring-white"
        
       >
         <SwiperSlide><img src={img1} /></SwiperSlide>

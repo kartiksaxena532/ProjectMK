@@ -9,6 +9,8 @@ const Navbar = () => {
       <button><LuEqual className=" ml-2 w-8 h-8" /></button>
         <div className="text-[#ffffff] flex items-center font-bold text-md gap-2 tracking-wider"><img src={Logo} alt="Logo" className="w-8 h-8 rounded-full hover:rotate-12" />Project MK</div>
         <button className="hover:underline underline-offset-4">Home</button>
+        <button className=" hover:underline underline-offset-4">Showcase</button>
+        <button className="hover:underline underline-offset-4">Services</button>
         <button className=" hover:underline underline-offset-4">About Us</button>
     </div>
     <Search/>
