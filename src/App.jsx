@@ -4,6 +4,8 @@ import Footer from './components/footer/Footer'
 import Hero from './components/Hero/hero'
 import Page2 from './components/Page2/Page2'
 import Page3 from './components/Page3/Page3'
+import FooterMain from './components/footer/FooterMain'
+
 function App() {
 
   return (
@@ -13,6 +15,7 @@ function App() {
       <Footer className="flex justify-start"/>
       <Page2/>
       <Page3/>
+      <FooterMain/>
    </main>
   )
 }

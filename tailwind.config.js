@@ -11,6 +11,7 @@ export default {
       },
       fontFamily: {
         'yatra': ['Yatra One', 'system-ui'],
+        'mons': ['Montserrat', 'sans-serif'],
       }
     },
   },
