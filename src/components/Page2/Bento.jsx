@@ -8,6 +8,7 @@ import song from '../../assets/page2/song.mp3';
     import plus from "../../assets/page2/plus.webp"
     import Iphone from "../../assets/page2/mockip.webp"
     import DVA  from "../../assets/images/Mk_Logo.png"
+  
     const Bento = () => {
       const audioRef = useRef(null);
 

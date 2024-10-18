@@ -7,7 +7,7 @@ const WhiteCard = () => {
   const formattedDate = `${currentDate.getDate()}.${currentDate.toLocaleString('default', { month: 'short' })}.${currentDate.getFullYear()}`;
   return (
     <div>
-      <div className="flex mt-4">
+      <div className="flex mt-10 md:mt-4">
       <div className="absolute ml-4 mt-2">
       <img src={Logo} alt="Logo" className="w-12 h-12 rounded-full hover:rotate-12" />
       <p className="text-gray-600 ml-28 text-xs">
@@ -20,9 +20,8 @@ const WhiteCard = () => {
         How Latest Technical <br/>Advancedment Are<br/>Changing The World
       </p>
       </div>
-      <img src={card} alt="Logo" className=" w-54 h-52" />
+      <img src={card} alt="Logo" className="w-52 h-52 md:w-54 md:h-52" />
       <div className=" absolute ml-24 -mt-6 bg-green-500 w-28 h-10 rounded-full justify-center items-center flex text-black hover:text-white hover:ring-green-300 hover:ring-2 ">Read More</div>
-    
        </div>
     </div>
   )
