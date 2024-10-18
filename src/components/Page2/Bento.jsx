@@ -81,7 +81,7 @@ import song from '../../assets/page2/song.mp3';
           </a>
         </span>
         <h1 className="absolute mt-3 font-yatra items-center justify-center left-4 top-12 text-6xl  text-zinc-600 font-thin">
-          Meet AI <br /> for Your <br /> Memorial Balance
+          Bento Grid <br /> Coded To <br /> Up the Design.
         </h1>
         <span className="absolute  bottom-4 left-4  text-sm  text-black ">
           Developed together with <br /> science based robotics <br />{" "} 
@@ -123,13 +123,13 @@ import song from '../../assets/page2/song.mp3';
         <img src={Young} className="absolute bottom-0 rounded-xl" alt="young" />
       </div>
       <div className="relative col-span-1 row-span-2 bg-blue-500 rounded-xl">
-        <button className="absolute text-sm rounded-xl left-2 top-2 px-2 py-1 bg-white text-blue-500 hover:bg-red-400 hover:text-light duration-500" >Top Rated Mechanics</button>
+        <button className="absolute text-sm rounded-xl left-2 top-2 px-2 py-1 bg-white text-blue-500 hover:bg-red-400 hover:text-light duration-500" >Top Rated Courses!</button>
         <h1 className="absolute right-4 top-12 text-5xl" >95.6%</h1>
         <img src={Iphone} width={120} className="absolute bottom-0 right-0" alt="young" />
       </div>
       <div className="relative items-center justify-center col-span-2 row-span-2 bg-green-400 rounded-xl">
        
-          <img className="mx-auto justify-center items-center rounded-full m-3 h-52 w-52 hover:animate-spin" src={DVA}   onMouseEnter={handleMouseEnter}
+          <img className="mx-auto justify-center items-center rounded-full m-3 h-48 w-48 hover:animate-spin" src={DVA}   onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}  alt="young" />
           <audio ref={audioRef} src={song} />
       </div>
