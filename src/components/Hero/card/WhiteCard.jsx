@@ -14,13 +14,13 @@ const WhiteCard = () => {
       {formattedDate}
       </p>
       <div className="rounded-full w-28 h-10 ring-black ring-1 my-2 text-sm text-black items-center flex justify-center hover:ring-2 hover:font-bold">
-        New Article
+        Have an Idea?
       </div>
-      <p className="text-gray-600 font-semibold text-md -ml-0.2 leading-none tracking-wide mt-4">
-        How Latest Technical <br/>Advancedment Are<br/>Changing The World
+      <p className="text-gray-600 font-semibold text-md capitalize -ml-0.2 leading-none tracking-wide mt-4">
+        This Page is a part of<br/>our implementation<br/>Showcase.
       </p>
       </div>
-      <img src={card} alt="Logo" className="w-52 h-52 md:w-54 md:h-52" />
+      <img src={card} alt="Logo" className="w-54 h-52 md:w-56 md:h-52" />
       <div className=" absolute ml-24 -mt-6 bg-green-500 w-28 h-10 rounded-full justify-center items-center flex text-black hover:text-white hover:ring-green-300 hover:ring-2 ">Read More</div>
        </div>
     </div>

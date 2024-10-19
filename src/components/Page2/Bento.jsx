@@ -1,9 +1,7 @@
 import { useRef } from 'react';
 import song from '../../assets/page2/song.mp3'; 
     import Old from "../../assets/page2/old.png"
-    import Avatar1 from "../../assets/page2/avatar.png"
     import Logo from "../../assets/page2/avatar.png"
-    import Avatar2 from "../../assets/page2/avatar.png"
     import Young from "../../assets/page2/young.png"
     import plus from "../../assets/page2/plus.webp"
     import Iphone from "../../assets/page2/mockip.webp"
@@ -87,21 +85,6 @@ import song from '../../assets/page2/song.mp3';
           Developed together with <br /> science based robotics <br />{" "} 
           experts to get fine results!
         </span>
-        <img
-          className="top-10 right-32 absolute"
-          src={Avatar1}
-          width={70}
-          height={70}
-          alt="Avatar1"
-        />
-        <img
-          className="top-8 right-16 absolute"
-          src={Avatar2}
-          width={70}
-          height={70}
-            alt="Avatar2"
-        />
-
         <img
           src={Logo}
           width={50}

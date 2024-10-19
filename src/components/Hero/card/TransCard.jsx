@@ -30,7 +30,7 @@ const TransCard = () => {
         <SwiperSlide><img src={img2} alt="Logo" className=" w-1/2 " /></SwiperSlide>
         <SwiperSlide><img src={img4} alt="Logo" className=" w-1/2 " /></SwiperSlide>
       </Swiper>
-      <p className=" text-sm font-bold tracking-wide bottom-4 text-black absolute z-[999]  rounded-md px-2 backdrop-blur-sm">Multi-Sensor Humanoid<br></br>Robot For War Win Time</p>
+      <p className=" text-sm font-bold tracking-wide bottom-4 text-black absolute z-[999]  rounded-md px-2 backdrop-blur-sm">We Provide Quality<br></br>Within Minimal Time.</p>
       <img src={card} alt="Logo" className="absolute w-64 h-64 "/>
     </div>
      </>

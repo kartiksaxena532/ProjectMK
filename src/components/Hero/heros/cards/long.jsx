@@ -21,7 +21,7 @@ import { Autoplay,Pagination, Navigation  } from 'swiper/modules';
 
 const Long = () => {
   return (
-    <><div className="flex justify-center">
+    <><div className="flex justify-center font-mons">
      
     <div className="absolute mt-28 text-white">
     <Swiper
@@ -44,7 +44,7 @@ const Long = () => {
         <SwiperSlide><img src={img6} /></SwiperSlide>
         <SwiperSlide><img src={img7} /></SwiperSlide>
       </Swiper>
-      <p className="absolute bottom-10 text-xs font-bold left-6">Androids in market have led to automatic loads with pins</p>
+      <p className="absolute bottom-10 text-xs font-bold left-6">Find and enjoy easter eggs throughout the website.</p>
       <img src={bar} className="absolute w-32 h-12 bottom-0  "alt="bar" />
       <img src={base2} alt="base2" >
      
