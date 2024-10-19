@@ -2,8 +2,9 @@
 
 const FooterMain = () => {
   return (
+
     <div className="relative h-[80vh] w-full my-10 cursor-pointer overflow-hidden">
-        <div className="absolute bg-green-500 h-64 right-0 w-1/2 rounded-bl-full z-[999]">
+        <div className="absolute bg-green-500 h-64 right-0 w-4/5 md:w-1/2 rounded-bl-full z-[999]">
         </div>
         <div className="min-h-screen bg-transparent justify-start ">
   <div className="relative sm:max-w-xl ml-10 py-12">
