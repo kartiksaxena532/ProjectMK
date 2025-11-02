@@ -14,9 +14,9 @@ const FooterMain = () => {
       </div>
       <div className=" w-full bg-green-500 flex h-[30vh]">
         <div className="flex flex-col gap-9 w-full h-full justify-center items-center">
-          <div className="flex justify-center items-center text-white text-2xl md:text-4xl font-mons font-light mt-10">Graphich Design | Branding | Logo Design | UX/UI Design
+          <div className="flex justify-center items-center text-center text-white text-2xl md:text-4xl sm:text-center font-mons font-light mt-4">Graphich Design | Branding | Logo Design | UX/UI Design
           </div>
-          <div className="flex flex-row justify-between font-sans items-center w-[90vw] mt-10">
+          <div className="flex flex-row justify-between font-sans items-center w-[90vw] ">
             <div className="flex justify-start items-center text-white text-sm italic md:text-2xl font-bold font-mons ">Contact Us
             </div>
             <div className="flex justify-end flex-row gap-10 md:gap-20">
