@@ -5,14 +5,9 @@ import { Environment, Lightformer, ContactShadows, OrbitControls } from '@react-
 import Lamborghini from './Lamborgini'
 import { Suspense } from 'react'
 
-
 const Page3 = () => {
   return (
-    <div className=" relative h-screen w-full my-10 cursor-pointer ">
-         <div className=' absolute top-3 left-0 text-7xl  capitalize font-mons font-bold z-[999]'>
-         Give It A Spin!</div> 
-        <div className=' absolute right-0 bottom-3 text-7xl capitalize font-mons font-bold z-[999]'>
-            Yeah its a 3D model.</div> 
+    <div className=" relative h-screen w-full cursor-pointer ">
      <Suspense fallback={null}>
     <Canvas gl={{ logarithmicDepthBuffer: true, antialias: false }} dpr={[1, 1.5]} camera={{ position: [0, 0, 15], fov: 25 }}>
     <color attach="background" args={['#121212']} />
@@ -46,7 +41,7 @@ const Page3 = () => {
       <Lightformer form="ring" color="red" intensity={10} scale={2} position={[10, 5, 10]} onUpdate={(self) => self.lookAt(0, 0, 0)} />
     </Environment>
     <ambientLight intensity={5}/>
-    <OrbitControls enablePan={false} enableZoom={false} minPolarAngle={Math.PI / 2.2} maxPolarAngle={Math.PI / 2.2} />
+    <OrbitControls  autoRotate={true} rotateSpeed={0.5} enablePan={false} enableZoom={false} minPolarAngle={Math.PI / 2.2} maxPolarAngle={Math.PI / 2.2} />
   </Canvas>
   </Suspense></div>
   )

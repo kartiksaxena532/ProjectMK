@@ -4,12 +4,12 @@ const WhiteCard = () => {
   const currentDate = new Date();
   
   // Custom date format: dd-MMM-yyyy
-  const formattedDate = `${currentDate.getDate()}.${currentDate.toLocaleString('default', { month: 'short' })}.${currentDate.getFullYear()}`;
+  const formattedDate = `${currentDate.getDate()} ${currentDate.toLocaleString('default', { month: 'short' })} ${currentDate.getFullYear()}`;
   return (
     <div>
       <div className="flex mt-10 md:mt-4">
       <div className="absolute ml-4 mt-2">
-      <img src={Logo} alt="Logo" className="w-12 h-12 rounded-full hover:rotate-12" />
+      <img src={Logo} alt="Logo" className="w-12 h-12 rounded-full animate-spin" />
       <p className="text-gray-600 ml-28 text-xs">
       {formattedDate}
       </p>
